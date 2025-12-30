@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c27de9760065342955cb7278b4ccd5, type: 3}
+  m_Name: Skill_FireBall
+  m_EditorClassIdentifier: 
+  skillId: 0
+  skillName: fireball
+  description: "\u53D1\u51FA\u4E00\u4E2A\u706B\u7403"
+  icon: {fileID: 0}
+  skillType: 0
+  targetType: 5
+  damageType: 1
+  castTime: 0.1
+  recoveryTime: 0.1
+  cooldown: 0.1
+  manaCost: 1
+  range: 10
+  radius: 0
+  baseDamage: 10
+  apRatio: 0.5
+  projectileSpeed: 15
+  projectileRadius: 0.3
+  projectileMaxDistance: 15
+  destroyOnHit: 1
+  isHoming: 0
+  blinkDistance: 8
+  duration: 3
+  tickInterval: 0.5
+  tickDamage: 30
+  applySlow: 0
+  slowPercent: 0.3
+  slowDuration: 2
+  applyStun: 0
+  stunDuration: 1
+  castVfxPrefab: {fileID: 0}
+  hitVfxPrefab: {fileID: 0}
+  projectilePrefab: {fileID: 0}
